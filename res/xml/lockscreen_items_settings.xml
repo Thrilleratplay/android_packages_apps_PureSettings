@@ -41,4 +41,9 @@
         android:title="@string/lockscreen_alarm_title"
         android:defaultValue="true" />
 
+    <PreferenceScreen
+        android:fragment="com.pure.settings.fragments.Weather"
+        android:key="weather"
+        android:title="@string/weather_category" />
+
 </PreferenceScreen>
